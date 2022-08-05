@@ -6,6 +6,16 @@
   align-items: center;
 }
 
+.title-carousel {
+  position: relative;
+  top: 80px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
 .slide-container {
   width: 62.5rem;
   position: relative;

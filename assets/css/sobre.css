@@ -1,0 +1,21 @@
+.container-sobre {
+  border: 1px solid red;
+  margin: 40px;
+  text-align: center;
+}
+
+.sobre {
+  border: 3px solid blue;
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.sobre p {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.container-sobre img {
+  width: 150px;
+  border-radius: 50%;
+}

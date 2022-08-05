@@ -1,13 +1,15 @@
-.container-section h3 {
+.title {
   text-align: center;
   font-size: 25px;
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 1px;
 }
-
 .container-section {
+  display: flex;
   border-bottom: 1px solid rgb(165, 165, 165);
+  max-width: 1200px;
+  margin: 100px auto 0;
 }
 
 .section-display {
@@ -22,12 +24,10 @@
 .content-section {
   max-width: 50%;
   margin: 21px;
-  /* text-align: center; */
 }
 
 .content-section p {
   font-size: 18px;
-  /* text-align: justify; */
   margin: 30px 0 30px;
 }
 
@@ -78,10 +78,9 @@
     margin-top: 5px;
     border: none;
     text-align: center;
-    
   }
   .content-section p {
-    /* border: 1px solid black; */
+    border: 1px solid black;
     text-align: left;
   }
   .btn-section {
