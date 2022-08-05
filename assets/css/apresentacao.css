@@ -1,0 +1,47 @@
+.apresentacao {
+  text-align: center;
+  padding-top: 10.12rem;
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(151, 151, 235, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+  background-color: rgb(14, 14, 27);
+  color: rgba(201, 212, 212, 0.5);
+  min-height: 90vh;
+}
+
+.svg-bg {
+  opacity: 0.3;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+}
+
+
+
+.apresentacao h1 {
+  font-size: 2.5rem;
+}
+
+.apresentacao p {
+  display: inline-block;
+  max-width: 31.25rem;
+  text-align: center;
+  margin: 1.87rem;
+  font-size: 1.12rem;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #f2a172;
+  border: 1px solid #f2a172;
+  border-radius: 5px;
+  padding: 12px;
+  color: white;
+  font-size: 18px;
+}

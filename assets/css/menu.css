@@ -1,0 +1,72 @@
+/* MENU */
+
+.menu > a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.menu > a::before {
+  display: inline-block;
+  position: relative;
+  content: "";
+  background: url(../img/github-icon.svg) no-repeat;
+  background-size: contain;
+  width: 2rem;
+  height: 2rem;
+  top: 0;
+  left: 0;
+}
+
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  align-items: center;
+  position: static;
+  padding: 10px 20px;
+  /* background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(151, 151, 235, 1) 0%,
+    rgba(0, 212, 255, 1) 100%
+  ); */
+  background-color: rgb(219, 219, 219);
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  margin-left: 1.25rem;
+  position: relative;
+}
+
+.menu a {
+  color: rgba(90, 88, 88, 0.5);
+}
+
+.menu li a::after {
+  content: " ";
+  width: 0%;
+  height: 3px;
+  background-color: rgb(24, 73, 209);
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 5px;
+  transition: 0.5s ease-in-out;
+}
+
+.menu a:hover::after {
+  width: 100%;
+}
+
+@media only screen and (max-width: 300px) {
+  .menu ul {
+    flex-direction: column;
+  }
+}
