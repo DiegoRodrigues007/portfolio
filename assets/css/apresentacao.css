@@ -1,15 +1,8 @@
 .apresentacao {
   text-align: center;
   padding-top: 10.12rem;
-  /* background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(151, 151, 235, 1) 0%,
-    rgba(0, 212, 255, 1) 100%
-  ); */
-  background-color: rgb(14, 14, 27);
-  color: rgba(201, 212, 212, 0.5);
+  background-color: var(--blue);
+  color: var(--text-color);
   min-height: 90vh;
 }
 
@@ -19,8 +12,6 @@
   width: 100%;
   z-index: 1;
 }
-
-
 
 .apresentacao h1 {
   font-size: 2.5rem;
@@ -38,9 +29,9 @@
 
 .btn {
   display: inline-block;
-  background-color: #f2a172;
-  border: 1px solid #f2a172;
-  border-radius: 5px;
+  background-color: var(--orange);
+  border: none;
+  border-radius: 20px;
   padding: 12px;
   color: white;
   font-size: 18px;

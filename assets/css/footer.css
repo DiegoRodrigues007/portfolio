@@ -1,157 +1,160 @@
+footer {
+  color: white;
+  position: static;
+  bottom: 0px;
+  width: 100%;
+  margin-top: 60px;
+  background: var(--blue);
+}
+.main-content {
+  display: flex;
+}
 
+.content p {
+  text-align: left;
+}
+.main-content .caixa {
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.caixa h2 {
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.caixa .content {
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.caixa .content:after {
+  position: absolute;
+  content: "";
+  width: 15%;
+  height: 2px;
+  background: var(--orange);
+  top: -10px;
+}
+.caixa .content:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: var(--blue);
+  top: -10px;
+}
+.left .content .social {
+  margin: 20px 0 0 0;
+}
+.left .content .social a {
+  padding: 0;
+}
 
+.left .content p {
+  text-align: justify;
+}
+.center .content .fas {
+  font-size: 23px;
+  background: var(--blue);
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.center .content .fas:hover {
+  background: var(--orange);
+}
+.center .content .text {
+  font-size: 17px;
+  font-weight: 500;
+  padding-left: 10px;
+}
 
-footer{
-    color: white;
-    position: static;
+.center .content .phone {
+  margin: 10px 0;
+}
+.center .content .msg {
+  margin-top: 10px;
+}
+.right form input,
+.right form textarea {
+  width: 100%;
+  font-size: 17px;
+  background: var(--blue);
+  padding-left: 10px;
+  border: 1px solid #010d00;
+}
+.right form input {
+  height: 35px;
+}
+
+.right form .text {
+  font-size: 17px;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .btn-footer {
+  margin-top: 10px;
+}
+.right form .btn-footer button {
+  height: 40px;
+  width: 100%;
+  background: #dedcf4;
+  font-size: 17px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.3s;
+}
+input {
+  color: white;
+}
+
+textarea {
+  color: white;
+}
+
+.right form .btn-footer button:hover {
+  background: var(--orange);
+}
+.bottom .center {
+  padding: 5px;
+  font-size: 15px;
+  background: var(--blue);
+  text-align: center;
+}
+.bottom .center span {
+  color: #656565;
+}
+.bottom .center a {
+  color: var(--orange);
+  text-decoration: none;
+}
+.bottom .center a:hover {
+  text-decoration: underline;
+}
+
+span i {
+  color: var(--text-color);
+  font-size: 20px;
+  width: 30px;
+}
+
+span a {
+  font-size: 30px;
+  color:var(--text-color);
+  text-decoration: none;
+}
+@media screen and (max-width: 900px) {
+  footer {
     bottom: 0px;
-    width: 100%;
-    background:  #010D00;
-}
-.main-content{
-    display: flex;
-}
-.main-content .caixa{
-    flex-basis: 50%;
-    padding: 10px 20px;
-}
-.caixa h2{
-    font-size: 18px;
-    font-weight: 600;
-    text-transform: uppercase;
-}
-.caixa .content{
-    margin: 20px 0 0 0;
-    position: relative;
-}
-.caixa .content:after{
-    position: absolute;
-    content: '';
-    width: 15%;
-    height: 2px;
-    background: #F2B807;
-    top: -10px;
-}
-.caixa .content:before{
-    position: absolute;
-    content: '';
-    height: 2px;
-    width: 100%;
-    background: #1a1a1a;
-    top: -10px;
-}
-.left .content .social{
-    margin: 20px 0 0 0;
-}
-.left .content .social a{
-    padding: 0;
-}
-.left .content .social span img{
-    width: 40px;
-    height: 40px;
-    text-align: center;
-    line-height: 40px;
-    font-size: 18px;
-    transition: 0.3s;
-}
-
-.left .content p{
-    text-align: justify;
-}
-.center .content .fas{
-    font-size: 23px;
-    background: #1a1a1a;
-    width: 45px;
-    height: 45px ;
-    line-height: 45px;
-    text-align: center;
-    border-radius: 50%;
-    transition: 0.3s;
-    cursor: pointer;
-}
-.center .content .fas:hover{
-    background: #F2B807;
-}
-.center .content .text{
-    font-size: 17px;
-    font-weight: 500;
-    padding-left: 10px;
-}
-
-.center .content .phone{
-    margin: 10px 0;
-}
-.center .content .msg{
-    margin-top: 10px;
-}
-.right form input, .right form textarea{
-    width: 100%;
-    font-size: 17px;
-    background: #010D00;
-    padding-left: 10px;
-    border: 1px solid #010D00 ;
-}
-.right form input{
-    height: 35px;
-}
-.right form input:focus,
-.right form textarea:focus{
-    outline-color: #3498db;
-}
-.right form .text{
-    font-size: 17px;
-    margin-bottom: 2px;
-    color: #656565;
-}
-.right form .btn-footer{
-    margin-top: 10px;
-}
-.right form .btn-footer button{
-    height: 40px;
-    width: 100%;
-    background: #DEDCF4;
-    font-size: 17px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: .3s;
-}
-input{
-    color: white;
-}
-
-textarea{
-    color: white;
-}
-
-.right form .btn-footer button:hover{
-    background: #F2B807;
-}
-.bottom .center{
-    padding: 5px;
-    font-size: 15px;
-    background: #151515;
-    text-align: center;
-}
-.bottom .center span{
-    color: #656565;
-}
-.bottom .center a{
-    color: #F2B807;
-    text-decoration: none;
-}
-.bottom .center a:hover{
-    text-decoration: underline;
-}
-@media screen and (max-width: 900px){
-    footer{
-        bottom: 0px;
-    }
-    .main-content{
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
-    .main-content .caixa{
-        margin: 5px 0;
-    }
-
+  }
+  .main-content {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .caixa {
+    margin: 5px 0;
+  }
 }

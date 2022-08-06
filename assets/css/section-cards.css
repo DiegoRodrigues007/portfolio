@@ -7,7 +7,7 @@
 }
 .container-section {
   display: flex;
-  border-bottom: 1px solid rgb(165, 165, 165);
+  border-bottom: 1px solid var(--blue);
   max-width: 1200px;
   margin: 100px auto 0;
 }
@@ -39,18 +39,21 @@
   font-size: 25px;
   font-weight: 700;
   letter-spacing: 2px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid var(--orange);
+  color: var(--blue);
 }
 
 .btn-section {
-  background-color: black;
-  color: white;
+  background-color: var(--orange);
+  border: none;
+  color: var(--blue);
   width: 150px;
-  padding: 8px;
+  padding: 12px;
   font-size: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
   cursor: pointer;
   border-radius: 20px;
-  box-shadow: 0 20px 50px rgba(0, 0, 0, 0.2);
 }
 
 @media only screen and (max-width: 800px) {

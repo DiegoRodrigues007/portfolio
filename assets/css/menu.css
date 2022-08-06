@@ -26,14 +26,7 @@
   align-items: center;
   position: static;
   padding: 10px 20px;
-  /* background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(151, 151, 235, 1) 0%,
-    rgba(0, 212, 255, 1) 100%
-  ); */
-  background-color: rgb(219, 219, 219);
+  background-color: var(--background);
 }
 
 .menu ul {
@@ -46,23 +39,27 @@
 }
 
 .menu a {
-  color: rgba(90, 88, 88, 0.5);
+  color: var(--blue);
+  
 }
 
 .menu li a::after {
   content: " ";
   width: 0%;
   height: 3px;
-  background-color: rgb(24, 73, 209);
+  background-color: var(--orange);
   position: absolute;
-  bottom: 0;
+  bottom: -5px;
   left: 0;
   border-radius: 5px;
   transition: 0.5s ease-in-out;
+  
+  
 }
 
 .menu a:hover::after {
   width: 100%;
+  
 }
 
 @media only screen and (max-width: 300px) {
