@@ -25,8 +25,19 @@
   justify-content: space-between;
   align-items: center;
   position: static;
-  padding: 10px 20px;
-  background-color: var(--background);
+  padding: 15px 50px;
+  background-color: var(--blue);
+
+}
+
+.logo{
+  width: 200px;
+}
+
+header li span{
+  background-color: var(--orange);
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .menu ul {
@@ -39,8 +50,7 @@
 }
 
 .menu a {
-  color: var(--blue);
-  
+  color: var(--background);
 }
 
 .menu li a::after {
@@ -53,13 +63,10 @@
   left: 0;
   border-radius: 5px;
   transition: 0.5s ease-in-out;
-  
-  
 }
 
 .menu a:hover::after {
   width: 100%;
-  
 }
 
 @media only screen and (max-width: 300px) {

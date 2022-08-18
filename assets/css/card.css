@@ -90,15 +90,15 @@
   display: inline-block;
   text-decoration: none;
   font-weight: 500;
-  color: var(--blue);
+  color: var(--background);
   padding: 10px 15px;
   border: none;
-  border-radius: 20px;
+  border-radius: 5px;
   background-color: var(--orange);
 }
 
 .slide-container .card .face.face-2 .content a:hover {
-  background-color: var(--blue);
+  background-color: rgb(231, 162, 34);
   color: white;
 }
 

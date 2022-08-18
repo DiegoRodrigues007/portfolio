@@ -26,5 +26,25 @@ body {
   color: var(--blue);
   max-width: 100%;
   margin-inline: auto;
-  font-family: "open-sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 5rem;
+  line-height: 1.3;
+}
+
+.detalhe {
+  color: #0e3fa7;
+  font-size: 3rem;
+}
+
+.ponto-2 {
+  color: rgba(255, 136, 0, 0.705);
+  font-size: 2rem;
+}
+
+.estrela {
+  width: 1.2rem;
 }
