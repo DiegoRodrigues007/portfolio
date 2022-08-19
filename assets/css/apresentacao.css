@@ -26,7 +26,7 @@
   letter-spacing: 1px;
 }
 
-.apresentacao .btn{
+.apresentacao .btn {
   margin-top: 45px;
 }
 
@@ -44,10 +44,10 @@
   border-radius: 5px;
 }
 
-@media only screen and (max-width: 800px){
+@media only screen and (max-width: 800px) {
   .apresentacao h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 2rem;
-}
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+  }
 }

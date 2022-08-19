@@ -64,6 +64,18 @@
     text-align: center;
     max-width: 100%;
   }
+  .content-section h2 {
+  display: inline-block;
+  padding-bottom: 10px;
+  margin-top: 60px;
+  text-transform: uppercase;
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  border-bottom: 1px solid var(--orange);
+  color: var(--blue);
+}
+
 
   .img-section {
     padding-top: 10px;
@@ -74,7 +86,7 @@
   .content-section {
     padding: 10px;
     margin: auto;
-    border: 1px solid rgb(148, 148, 148);
+   
     border-radius: 5px;
   }
   .content-section h2 {
@@ -83,7 +95,7 @@
     text-align: center;
   }
   .content-section p {
-    border: 1px solid black;
+    
     text-align: left;
   }
   .btn-section {
@@ -92,8 +104,3 @@
   }
 }
 
-/* @media only screen and (max-width: 800px) {
-  .content-section {
-    border: none;
-  }
-} */
