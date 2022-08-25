@@ -327,19 +327,21 @@
         <div class="right caixa">
           <h2>Contato</h2>
           <div class="content">
-            <form action="#">
+
+            <form method="post" name="contact" netlify>
               <div class="email">
                 <div class="text">Email</div>
-                <input type="email" required />
+                <input name="email" type="email" required />
               </div>
               <div class="msg">
                 <div class="text">Mensagem</div>
-                <textarea rows="2" cols="25" required></textarea>
+                <textarea name="mensagem" rows="2" cols="25" required></textarea>
               </div>
               <div class="btn-footer">
                 <button type="submit">Enviar</button>
               </div>
             </form>
+
           </div>
         </div>
       </div>
